@@ -1,0 +1,28 @@
+body{/*Стилі до головного тіла блоку*/
+    width: max-content;
+    height: auto;
+    position: relative;
+}
+p{ /*Стилі до тексту*/
+    text-align: center;
+}
+.bloc_style{ /*клас зі стилями до всіх трьох блоків*/
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+}
+#first{ /*стилі до 1 блоку*/
+        background-color: lightseagreen;
+        position: relative;
+        margin-left: 200px;
+    }
+#second{/*стилі до 2 блоку*/
+        background-color: beige;
+        position: relative;
+        margin-left: 400px;
+    }
+#third{/*стилі до 3 блоку*/
+        background-color: darkorchid;
+        position: relative;
+        margin-left: 0px;
+    }
